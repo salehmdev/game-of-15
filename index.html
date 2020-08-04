@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Game of 15</title>
+		
+		<script src="scripts/main.js"></script>
+		<link rel="stylesheet" href="styles/normalize.css">
+		<link rel="stylesheet" href="styles/main.css">
+		
+		<h1 class = "main-heading">Game of 15</h1>
+	</head>
+	<body class="body-format">
+		<div align="center">
+			<table border="5" cellpadding="30" align="center">
+		        <tbody>
+		        	<tr>
+		    			<td class = "tile" id="row1col1" onclick="MoveTile(this.id)">1</td>
+		    			<td class = "tile" id="row1col2" onclick="MoveTile(this.id)">2</td>
+		    			<td class = "tile" id="row1col3" onclick="MoveTile(this.id)">3</td>
+		    			<td class = "tile" id="row1col4" onclick="MoveTile(this.id)">4</td>
+		        	</tr>
+		        	<tr>
+		    			<td class = "tile" id="row2col1" onclick="MoveTile(this.id)">5</td>
+		    			<td class = "tile" id="row2col2" onclick="MoveTile(this.id)">6</td>
+		    			<td class = "tile" id="row2col3" onclick="MoveTile(this.id)">7</td>
+		    			<td class = "tile" id="row2col4" onclick="MoveTile(this.id)">8</td>
+		        	</tr>
+		        	<tr>
+		    			<td class = "tile" id="row3col1" onclick="MoveTile(this.id)">9</td>
+		    			<td class = "tile" id="row3col2" onclick="MoveTile(this.id)">10</td>
+		    			<td class = "tile" id="row3col3" onclick="MoveTile(this.id)">11</td>
+		    			<td class = "tile" id="row3col4" onclick="MoveTile(this.id)">12</td>
+		        	</tr>
+		        	<tr>
+		    			<td class = "tile" id="row4col1" onclick="MoveTile(this.id)">13</td>
+		    			<td class = "tile" id="row4col2" onclick="MoveTile(this.id)">14</td>
+		    			<td class = "tile" id="row4col3" onclick="MoveTile(this.id)">15</td>
+		    			<td class = "tile" id="row4col4" onclick="MoveTile(this.id)"> </td>
+		        	</tr>
+		        </tbody>
+		    </table>
+		    <br>
+		    
+		    <div><button onclick = "Shuffle()">New Game</button>  <button onclick= "CreateSimpleGame()">Simple Game</button></div>
+		    <br>
+		    
+		    <p>
+			    <div>Total Moves:  <span id="number-of-moves">0</span></div>
+			    <div>Timer:  <span id="time">0:0:0 </span></div>
+			    <br>
+			    <div id = "message-to-user"> </div>
+		    </p>
+	   </div>
+     </body>
+
+</html>

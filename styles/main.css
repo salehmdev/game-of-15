@@ -1,0 +1,54 @@
+* {
+	margin: 0pt;
+	padding: 0pt;
+	font-family: sans-serif;
+}
+
+html{
+	background-color: #FAF4DE;
+}
+
+.main-heading{
+	text-align: center;
+}
+
+td{
+	text-align: center;
+}
+
+.tile{
+	width: 50px;
+	height: 50px;
+	border: 1px solid;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+
+table{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: table;
+	border-collapse: separate;
+}
+
+.body-format{
+	display: block;
+}
+
+#message-to-user{
+	text-align: center;
+	display: block;
+	width: 500px;
+	font-size: 80%;
+}
+
+#success-dialog{
+	text-align: center;
+	color: green;
+	font-weight: strong;
+}
+
